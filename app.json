@@ -1,5 +1,5 @@
 {
-  "name": "VideoMergerBot",
+  "name": "Tech-Video-Merge-Bot",
   "description": "A bot used to merge multiple video files!",
   "keywords": [
     "video merger bot",
@@ -8,7 +8,7 @@
     "telegram video merger",
     "video merger"
   ],
-  "repository": "https://github.com/DivideProjects/VideoMergerBot",
+  "repository": "https://github.com/BikashTG/Tech-Video-Merge-Bot",
   "buildpacks": [
     {
       "url": "https://github.com/moneymeets/python-poetry-buildpack.git"
