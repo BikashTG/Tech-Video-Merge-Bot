@@ -1,12 +1,10 @@
-# VidMergeBot
+# Tech-Video-Merge-Bot
 
 A bot used to merge multiple video files!
 
-This bot has a working version here: [@VidMergeBot](https://t.me/VidMergeBot)
-
 This bot uses pyrogram library to communicate with Telegram amd MongoDB for database.
 
-## Hosting
+## Deploy To Heroku
 
 <details><summary>Deploy To Heroku</summary>
 <p>
