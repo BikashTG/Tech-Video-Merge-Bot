@@ -484,7 +484,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyrogram"
-version = "2.0.60"
+version = "2.0.96"
 description = "Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
 category = "main"
 optional = false
@@ -496,21 +496,21 @@ pysocks = "1.7.1"
 
 [[package]]
 name = "pyromod"
-version = "1.5"
-description = "A monkeypatcher add-on for Pyrogram"
+version = "0.2.1"
+description = "A monkeypatcher add-on for Pyrogram that does conversation handling"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = "^3.8"
 develop = false
 
 [package.dependencies]
-pyrogram = ">=1.0.0"
+pyrogram = ">=1.0"
 
 [package.source]
 type = "git"
 url = "https://github.com/usernein/pyromod"
 reference = "HEAD"
-resolved_reference = "2d71f19a821355ff9a4e1cd9fdbbf2a0990b482a"
+resolved_reference = "fd56c1e5d2ebf766785ff68ea86c22f2471fd450"
 
 [[package]]
 name = "pysocks"
@@ -621,7 +621,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "e33a3cb93d675d6783b7731c98659da48b09d16a76996b6b2ca487181890c75f"
+content-hash = "c1b774bd61fa632afe6ab5679b5d0946157794bc0b77fd4a9cf6adc7f0e7ed69"
 
 [metadata.files]
 aiodns = [
@@ -1317,8 +1317,8 @@ pyreadline3 = [
     {file = "pyreadline3-3.4.1.tar.gz", hash = "sha256:6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae"},
 ]
 pyrogram = [
-    {file = "Pyrogram-2.0.60-py3-none-any.whl", hash = "sha256:ea722196bb84acd14c223ce13e94127fdcba5495d59e5b01dda857d9cc0abc33"},
-    {file = "Pyrogram-2.0.60.tar.gz", hash = "sha256:24d92fc045026aaf5b05dfcb83d8a9d0def5c927e40ebdd5b8c3bc0d6c3d5065"},
+    {file = "Pyrogram-2.0.96-py3-none-any.whl", hash = "sha256:0320a9cc8657be77734c1786dac3a0c7e0848b30f475b87e3634200b05f006fa"},
+    {file = "Pyrogram-2.0.96.tar.gz", hash = "sha256:ebf64cd1e6fdb2f6fd15cb685b8aa3792b92ae479cdeda99e6877a1144e485c5"},
 ]
 pyromod = []
 pysocks = [
